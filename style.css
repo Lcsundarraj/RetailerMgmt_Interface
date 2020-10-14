@@ -1,9 +1,11 @@
 body {
   font-family: "Lato", sans-serif;
   transition: background-color .5s;
-  background: url(https://images.wallpapersden.com/image/download/blue-background-geometric-abstract_63624_1920x1080.jpg);
+  background: url(https://3b6tg03su4w72twlokencxn4-wpengine.netdna-ssl.com/wp-content/uploads/top-72-black-abstract-background-hd-background-spot.jpg) fixed;
 }
-
+.bg-lighta {
+    background-color: #f8f9fa99 !important;
+}
 .sidenav {
   height: 100%;
   width: 0;
@@ -77,4 +79,42 @@ body {
 .change .bar3 {
     -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
     transform: rotate(45deg) translate(-8px, -8px) ;
+}
+
+.ptb-70{
+  padding-top: 70px;
+}
+.plr-30{
+  padding-left: : 30px;
+  padding-right: 30px;
+}
+.sec1 label{
+  font-size: 12px;
+  background: #ddd;
+  padding: 0px 8px 2px;
+  border-radius: 5px 5px 0 0;
+  margin-bottom: -5px;
+  margin-left: 10px;
+}
+.form-group{
+  margin-bottom: 0px !important;
+}
+.sec_title{
+  margin-bottom: -13px;
+margin-top: 10px;
+text-align: center;
+float: right;
+min-width: 250px;
+max-width: 400px;
+padding: 5px 15px 5px;
+position: relative;
+}
+legend{
+  margin-left: -24px !important;
+  width: auto !important;
+  min-width: 130px !important;
+  max-width: 300px !important;
+  padding: 0px 20px 2px 20px !important;
+  border-radius: 0 10px 10px 0;
+  border-bottom: 4px solid #ffc107;
 }

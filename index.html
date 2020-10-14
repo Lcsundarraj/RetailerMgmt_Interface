@@ -1,43 +1,43 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="stylesheet" href="style.css">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" >
+  <link rel="stylesheet" href="style.css">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" >
 
-    <title>Dashboard</title>
-  </head>
-  <body>
+  <title>Dashboard</title>
+</head>
+<body>
 
-    <div class="container-fluid">
+  <div class="container-fluid">
 
-        <!-- Overlay Navigation Menu -->
-        <div id="mySidenav" class="sidenav">
+    <!-- Overlay Navigation Menu -->
+    <div id="mySidenav" class="sidenav">
           <h3>Dashboard</h3><!-- 
-            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> -->
-            <a href="#">Consumer Data management</a>
-            <a href="#">Retailer Management</a>
-            <a href="#">Door Center</a>
-            <a href="#">Other MOdules</a>
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> -->
+          <a href="#">Consumer Data management</a>
+          <a href="#">Retailer Management</a>
+          <a href="#">Door Center</a>
+          <a href="#">Other MOdules</a>
         </div>
 
         <div id="main"  class="row fixed-top">
-            <div class="m-1 ml-4 text-left btn btn-dark">
-                <span class="font-size" style="font-size:30px;cursor:pointer"  onclick="toggleNav();">
-                    <div class="container" onclick="myFunction(this)">
-                      <div class="bar1"></div>
-                      <div class="bar2"></div>
-                      <div class="bar3"></div>
-                    </div>
-                </span>
-            </div>
-            <div class="col-3 text-white bg bg-success m-1 pt-2 rounded">
-                <h4>DASHBOARD MENU</h4>
-                <!-- <p>Click on the element below to open the side navigation menu, and push this content to the right. Notice that we add a black see-through background-color to body when the sidenav is opened.</p> -->
+          <div class="m-1 ml-4 text-left btn btn-dark">
+            <span class="font-size" style="font-size:30px;cursor:pointer"  onclick="toggleNav();">
+              <div class="container" onclick="myFunction(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+              </div>
+            </span>
+          </div>
+          <div class="col-3 text-white bg bg-success m-1 pt-2 rounded">
+            <h4>DASHBOARD MENU</h4>
+            <!-- <p>Click on the element below to open the side navigation menu, and push this content to the right. Notice that we add a black see-through background-color to body when the sidenav is opened.</p> -->
 
                 <!-- <div class="btn-group" role="group">
                   <button id="btnGroupDrop1" type="button" class="btn btn-warning dropdown-toggle btn-lg" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -47,67 +47,302 @@
                     <a class="dropdown-item" href="#">Form</a>
                     <a class="dropdown-item" href="#">View</a>
                   </div>
-              </div> -->
-            </div>          
-        </div>
-        <!-- End of Overlay Navigation Menu -->
+                </div> -->
+              </div>          
+            </div>
+            <!-- End of Overlay Navigation Menu -->
 
-        <!-- Content Section -->
-        <section id="content" class="pt-4 mt-4">
-             <div class="col-lg-12 fixed-top text-right m-1 ">  
-              <nav class="navbar navbar-expand-sm float-right">  
+            <!-- Content Section -->
+            <section id="content" class="row">
+              <!-- Sidenav for form and view -->
+              <div class="col-lg-12 fixed-bottom text-right m-1 ">
+                <nav class="navbar navbar-expand-sm float-right">  
                   <ul class="navbar-nav">
                     <li class="nav-item">
-                      <a class="btn btn-warning btn-lg mr-1" href="#section1">Form</a>
+                      <a class="btn btn-dark text-light mr-1" href="#section1">Form</a>
                     </li>
                     <li class="nav-item">
-                      <a class="btn btn-warning btn-lg" href="#section2">View</a>
+                      <a class="btn btn-dark text-light" href="#section2">View</a>
                     </li>
                   </ul>
-              </nav>
-            </div>
-            <div id="section1" class="container-fluid mt-4 bg bg-light" >
-              <span class="m-2">&nbsp;</span>
-              <h1>Section 1</h1>
-              <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-              <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-              
-            </div>
-            <div id="section2" class="container-fluid bg-warning" style="padding-top:70px;padding-bottom:70px">
-              <h1>Section 2</h1>
-              <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-              <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-            </div>
-        </section>
+                </nav>
+              </div>
 
-    </div>
 
-    <!-- Optional JavaScript -->
-    <script>
-      function openNav() {
-        document.getElementById("mySidenav").style.width = "250px";
-        document.getElementById("main").style.marginLeft = "250px";
-        document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
-      }
+              <div id="section1" class="container-fluid" >
+                <div class="row">
+                  <div class="col-9"></div>
+                  <div class=" sec_title">
+                    <h2 class="bg bg-warning p-2 rounded-top">Retailer management</h2>
+                  </div>
+                </div>
+                <div class=" bg-lighta pt-4 pb-4 pl-4 pr-4">
+                  
+                  <form class="form-horizontal col-xs-12 col-lg-12 col-md-12 col-sm-12" method="POST" action="" name="wform" >
+                    <fieldset  class="row sec1 mb-4">
+                     <legend class="bg bg-dark text-light">Retailer Information</legend>
+                     <div class="form-group col-lg-4 col-sm-12">
+                      <label for="pName" class="" >Program Name</label>
+                      <input type="text" class="form-control" id="pName" placeholder="Enter Program Name" name="pName" >
+                    </div>
+                    <div class="form-group col-4">
+                      <label for="accN"  class="">Account # </label>
+                      <input type="Number" class="form-control" id="accN" placeholder="Enter Account No" name="accN" >
+                    </div>
+                    <div class="form-group col-lg-4 col-sm-12">
+                      <label for="addrs" class="">Address</label>
+                      <input type="text" class="form-control" id="addrs" placeholder="Address" name="addrs" >
+                    </div>
+                    <div class="form-group col-4">
+                      <label for="city" class="">City </label>
+                      <input type="text" class="form-control" id="city" placeholder="Enter City" name="city" >
+                    </div>
+                    <div class="form-group col-4">
+                      <label for="state" class="">State </label>
+                      <input type="text" class="form-control" id="state" placeholder="Enter  State"  name="state" >
+                    </div>
 
-      function closeNav() {
-        document.getElementById("mySidenav").style.width = "0";
-        document.getElementById("main").style.marginLeft= "0";
-        document.body.style.backgroundColor = "white";
-      }
-      function myFunction(x) {
-        x.classList.toggle("change");
-      }
-      function toggleNav() {
-          var sidenav = document.getElementById("mySidenav"),
-          main = document.getElementById("main");
-          sidenav.style.width = sidenav.style.width === "250px" ? '0' : '250px';
-          main.style.marginLeft = main.style.marginLeft === "250px" ? '0' :  '250px';
-      }
-      </script>
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" ></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" ></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" ></script>
-  </body>
-</html>
+                    <div class="form-group col-lg-4 col-sm-12">
+                      <label for="zCode" class="">Zip Code</label>
+                      <input type="Number" class="form-control" id="zCode" placeholder="Enter Zip Code" name="zCode" >
+                    </div>
+                    <div class="form-group col-4">
+                      <label for="cntry" class="">Country </label>
+                      <select name="cars" class="custom-select mb-3">
+                        <option selected>Select country</option>
+                        <option value="USA">USA</option>
+                        <option value="CANADA">CANADA</option>
+                      </select> 
+                    </div>
+                    <div class="form-group col-lg-4 col-sm-12">
+                      <label for="strDate" class="">Start Date</label>
+                      <input type="date" class="form-control pr-10" id="strDate" placeholder="Choose Start Date" name="strDate" >
+                    </div>
+                    <div class="form-group col-4">
+                      <label for="status" class="">Status </label>
+                      <input type="text" class="form-control" id="status" placeholder="Enter Status" name="status" >
+                    </div>
+                    
+                  </fieldset>
+
+                  <!-- Job Title -->
+                  <fieldset  class="row sec1 mb-4">
+                   <legend  class="bg bg-dark text-light col-lg-3">Job Title</legend>
+                   <div class="form-group col-lg-4 col-sm-12">
+                    <label for="jobTitle" class="">Job Title</label>
+                    <input type="text" class="form-control" id="jobTitle" placeholder="Enter Job Title" name="jobTitle" >
+                  </div>   
+                  <div class="form-group col-lg-4 col-sm-12">
+                    <label for="fName" class="">First Name</label>
+                    <input type="text" class="form-control" id="fName" placeholder="Enter First Name" name="fName" >
+                  </div>
+                  <div class="form-group col-lg-4 col-sm-12">
+                    <label for="lName" class="">Last Name</label>
+                    <input type="text" class="form-control" id="lName" placeholder="Enter Last Name" name="lName" >
+                  </div>  
+                  <div class="form-group col-lg-4 col-sm-12">
+                    <label for="phone" class="">Phone Number</label>
+                    <input type="Number" class="form-control" id="phone" placeholder="Enter Phone Number" name="phone" >
+                  </div> 
+                  <div class="form-group col-lg-4 col-sm-12">
+                    <label for="ext" class="">Ext #</label>
+                    <input type="text" class="form-control" id="ext" placeholder="Enter Ext " name="ext" >
+                  </div>  
+                  <div class="form-group col-lg-4 col-sm-12">
+                    <label for="mobile" class="">Mobile</label>
+                    <input type="Number" class="form-control" id="mobile" placeholder="Enter Mobile Number" name="mobile" >
+                  </div>
+                  <div class="form-group col-lg-4 col-sm-12">
+                    <label for="email" class="">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter Email Id" name="email" >
+                  </div> 
+                </fieldset>
+
+                <!-- Job Title 2 -->
+                <fieldset  class="row sec1 mb-4">
+                 <legend  class="bg bg-dark text-light col-lg-3">Job Title2</legend>
+                 <div class="form-group col-lg-4 col-sm-12">
+                  <label for="jobTitle2" class="">Job Title </label>
+                  <input type="text" class="form-control" id="jobTitle2" placeholder="Enter Job Title" name="jobTitle2" >
+                </div>   
+                <div class="form-group col-lg-4 col-sm-12">
+                  <label for="fName2" class="">First Name</label>
+                  <input type="text" class="form-control" id="fName2" placeholder="Enter First Name" name="fName2" >
+                </div>
+                <div class="form-group col-lg-4 col-sm-12">
+                  <label for="lName2" class="">Last Name</label>
+                  <input type="text" class="form-control" id="lName2" placeholder="Enter Last Name" name="lName2" >
+                </div>  
+                <div class="form-group col-lg-4 col-sm-12">
+                  <label for="phone2" class="">Phone Number</label>
+                  <input type="Number" class="form-control" id="phone2" placeholder="Enter Phone Number" name="phone2" >
+                </div> 
+                <div class="form-group col-lg-4 col-sm-12">
+                  <label for="mobile2" class="">Mobile</label>
+                  <input type="Number" class="form-control" id="mobile2" placeholder="Enter Mobile Number" name="mobile2" >
+                </div>
+                <div class="form-group col-lg-4 col-sm-12">
+                  <label for="email2" class="">Email</label>
+                  <input type="email" class="form-control" id="email2" placeholder="Enter Email Id" name="email2" >
+                </div> 
+              </fieldset>
+              <div class="form-group col-lg-12 text-center ">
+                <button type="Submit" class="btn btn-primary">Submit Info</button>
+              </div>
+            </form>
+          </div>
+        </div>
+
+
+        <!-- Section - 2 -->
+        <div id="section2" class="container-fluid" >
+          <div class="row">
+            <div class="col-9"></div>
+            <div class=" sec_title">
+              <h2 class="bg bg-warning p-2 rounded-top">View Data from DB</h2>
+            </div>
+          </div>
+          <div class="col-lg-12 bg-lighta pt-4 pb-4 pl-4 pr-4 mb-4">
+            <div class="row">
+              <!-- Card1 -->
+              <div class="col-lg-4">
+                <div class="card">
+                  <div class="card-body">
+                   <h5 class="card-title bg bg-dark text-light p-1">Program Name : Sample Program</h5>
+                   <table class="mb-4">
+                    
+                     
+
+                    <tr><th>Job Title : </th><td>{{p["Jobtitle"]}}</td></tr>
+                    <tr><th>First Name : </th><td>{{p["FirstName"]}}</td></tr>
+                    <tr><th>Last Name : </th><td>{{p["LastName"]}}</td></tr>
+                    <tr><th>Phone Number : </th><td>{{p["Phone1"]}}</td></tr>
+                    <tr><th>Ext# : </th><td>{{p["PhoneExt"]}}</td></tr>
+                    <tr><th>Mobile : </th><td>{{p["Mobile1"]}}</td></tr>
+                    <tr><th>Email : </th><td>{{p["Email1"]}}</td></tr>
+
+                    
+                  </table>
+                  <div class="row">
+                    <form method="POST" action="edit/{{p['_id']}}" class="col-lg-3 col-md-3">
+                     <div class="form-group ">
+                      <button type="submit" class="btn btn-success"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> Update</button>
+                    </div>
+                  </form>                          
+                </div>
+                                 <!-- <a href="#" class="btn btn-primary">Edit</a>
+                                   <a href="#" class="btn btn-primary">Delete</a> -->
+                                 </div>
+                               </div>   
+                             </div>
+                             <!-- Card-2 -->
+                             <div class="col-lg-4">
+                              <div class="card">
+                                <div class="card-body">
+                                 <h5 class="card-title bg bg-dark text-light p-1">Program Name : Sample Program</h5>
+                                 <table class="mb-4">
+                                  
+                                   
+
+                                  <tr><th>Job Title : </th><td>{{p["Jobtitle"]}}</td></tr>
+                                  <tr><th>First Name : </th><td>{{p["FirstName"]}}</td></tr>
+                                  <tr><th>Last Name : </th><td>{{p["LastName"]}}</td></tr>
+                                  <tr><th>Phone Number : </th><td>{{p["Phone1"]}}</td></tr>
+                                  <tr><th>Ext# : </th><td>{{p["PhoneExt"]}}</td></tr>
+                                  <tr><th>Mobile : </th><td>{{p["Mobile1"]}}</td></tr>
+                                  <tr><th>Email : </th><td>{{p["Email1"]}}</td></tr>
+
+                                  
+                                </table>
+                                <div class="row">
+                                  <form method="POST" action="edit/{{p['_id']}}" class="col-lg-3 col-md-3">
+                                   <div class="form-group ">
+                                    <button type="submit" class="btn btn-success"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> Update</button>
+                                  </div>
+                                </form>                          
+                              </div>
+                                 <!-- <a href="#" class="btn btn-primary">Edit</a>
+                                   <a href="#" class="btn btn-primary">Delete</a> -->
+                                 </div>
+                               </div>   
+                             </div> 
+
+                             <!-- Card-3 -->
+                             <div class="col-lg-4">
+                              <div class="card">
+                                <div class="card-body">
+                                 <h5 class="card-title bg bg-dark text-light p-1">Program Name : Sample Program</h5>
+                                 <table class="mb-4">
+                                  
+                                   
+
+                                  <tr><th>Job Title : </th><td>{{p["Jobtitle"]}}</td></tr>
+                                  <tr><th>First Name : </th><td>{{p["FirstName"]}}</td></tr>
+                                  <tr><th>Last Name : </th><td>{{p["LastName"]}}</td></tr>
+                                  <tr><th>Phone Number : </th><td>{{p["Phone1"]}}</td></tr>
+                                  <tr><th>Ext# : </th><td>{{p["PhoneExt"]}}</td></tr>
+                                  <tr><th>Mobile : </th><td>{{p["Mobile1"]}}</td></tr>
+                                  <tr><th>Email : </th><td>{{p["Email1"]}}</td></tr>
+
+                                  
+                                </table>
+                                <div class="row">
+                                  <form method="POST" action="edit/{{p['_id']}}" class="col-lg-3 col-md-3">
+                                   <div class="form-group ">
+                                    <button type="submit" class="btn btn-success"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> Update</button>
+                                  </div>
+                                </form>                          
+                              </div>
+                                 <!-- <a href="#" class="btn btn-primary">Edit</a>
+                                   <a href="#" class="btn btn-primary">Delete</a> -->
+                                 </div>
+                               </div>   
+                             </div>          
+                           </div>
+
+                           <div id="pagination" class="mt-2 mb-2">
+                            <ul class="pagination pagination-sm">
+                              <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                              <li class="page-item"><a class="page-link" href="#">1</a></li>
+                              <li class="page-item"><a class="page-link" href="#">2</a></li>
+                              <li class="page-item"><a class="page-link" href="#">3</a></li>
+                              <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                            </ul>
+                          </div>
+
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+
+                </div>
+
+                <!-- Optional JavaScript -->
+                <script>
+                  function openNav() {
+                    document.getElementById("mySidenav").style.width = "250px";
+                    document.getElementById("main").style.marginLeft = "250px";
+                    document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+                  }
+
+                  function closeNav() {
+                    document.getElementById("mySidenav").style.width = "0";
+                    document.getElementById("main").style.marginLeft= "0";
+                    document.body.style.backgroundColor = "white";
+                  }
+                  function myFunction(x) {
+                    x.classList.toggle("change");
+                  }
+                  function toggleNav() {
+                    var sidenav = document.getElementById("mySidenav"),
+                    main = document.getElementById("main");
+                    sidenav.style.width = sidenav.style.width === "250px" ? '0' : '250px';
+                    main.style.marginLeft = main.style.marginLeft === "250px" ? '0' :  '250px';
+                  }
+                </script>
+                <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+                <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" ></script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" ></script>
+                <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" ></script>
+              </body>
+              </html>
