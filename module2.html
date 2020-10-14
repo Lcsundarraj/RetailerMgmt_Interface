@@ -18,9 +18,9 @@
     <!-- Overlay Navigation Menu -->
     <div id="mySidenav" class="sidenav">
           <h3>Dashboard</h3><!-- 
-          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> -->
-          <a href="index.html" class="active">Retailer Management</a>
-          <a href="module2.html">Consumer Data management</a>          
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> -->          
+          <a href="index.html">Retailer Management</a>
+          <a href="module2.html" class="active">Consumer Data management</a>
           <a href="#">Door Center</a>
           <a href="#">Other MOdules</a>
         </div>
@@ -71,16 +71,16 @@
 
               <div id="section1" class="container-fluid" >
                 <div class="row">
-                  <div class="col-9"></div>
+                  <div class="col-8"></div>
                   <div class=" sec_title">
-                    <h2 class="bg bg-warning p-2 rounded-top">Retailer management</h2>
+                    <h2 class="bg bg-warning p-2 rounded-top">Consumer Data management</h2>
                   </div>
                 </div>
                 <div class=" bg-lighta pt-4 pb-4 pl-4 pr-4">
 
                   <form class="form-horizontal col-xs-12 col-lg-12 col-md-12 col-sm-12" method="POST" action="" name="wform" >
                     <fieldset  class="row sec1 mb-4">
-                     <legend class="bg bg-dark text-light">Retailer Information</legend>
+                     <legend class="bg bg-dark text-light">Consumer Information</legend>
                      <div class="form-group col-lg-4 col-sm-12">
                       <label for="pName" class="" >Program Name</label>
                       <input type="text" class="form-control" id="pName" placeholder="Enter Program Name" name="pName" >
@@ -320,7 +320,7 @@
                 <!-- Optional JavaScript -->
                 <script>
                   function openNav() {
-                     document.getElementById("mySidenav").style.width = "250px";
+                    document.getElementById("mySidenav").style.width = "250px";
                     document.getElementById("main").style.marginLeft = "250px";
                     document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
                   }

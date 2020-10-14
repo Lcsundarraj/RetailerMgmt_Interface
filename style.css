@@ -1,7 +1,7 @@
 body {
   font-family: "Lato", sans-serif;
   transition: background-color .5s;
-  background: url(https://3b6tg03su4w72twlokencxn4-wpengine.netdna-ssl.com/wp-content/uploads/top-72-black-abstract-background-hd-background-spot.jpg) fixed;
+  background: url(https://images.wallpapersden.com/image/download/blue-square-abstract-design_65978_1920x1080.jpg) fixed;
 }
 .bg-lighta {
     background-color: #f8f9fa99 !important;
@@ -28,7 +28,7 @@ body {
   transition: 0.3s;
 }
 
-.sidenav a:hover, .sidenav a:active, .sidenav a:focus  {
+.sidenav a:hover, .sidenav a:active, .sidenav a:focus , .active {
   color: #f1f1f1;
   background: #0a0c5e;
   text-decoration: none;
@@ -105,7 +105,7 @@ margin-top: 10px;
 text-align: center;
 float: right;
 min-width: 250px;
-max-width: 400px;
+max-width: 500px;
 padding: 5px 15px 5px;
 position: relative;
 }
