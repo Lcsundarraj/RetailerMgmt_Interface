@@ -1,7 +1,8 @@
 body {
   font-family: "Lato", sans-serif;
   transition: background-color .5s;
-  background: url(https://images.wallpapersden.com/image/download/blue-square-abstract-design_65978_1920x1080.jpg) fixed;
+   background-color: white;
+  /*background: url(https://images.wallpapersden.com/image/download/blue-square-abstract-design_65978_1920x1080.jpg) fixed;*/
 }
 .bg-lighta {
     background-color: #f8f9fa99 !important;
@@ -116,5 +117,6 @@ legend{
   max-width: 300px !important;
   padding: 0px 20px 2px 20px !important;
   border-radius: 0 10px 10px 0;
-  border-bottom: 4px solid #ffc107;
+  /*border-bottom: 4px solid #9A9A9A;*/
 }
+
