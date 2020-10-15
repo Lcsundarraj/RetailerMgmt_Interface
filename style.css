@@ -1,7 +1,7 @@
 body {
   font-family: "Lato", sans-serif;
   transition: background-color .5s;
-  background-color: rgba(0,0,0,.7);
+  background-color: #eae6e6  !important;
   background: url(https://fresible.com/wp-content/uploads/2018/04/Subtle-Light-Tile-Pattern-Vol2.jpg) fixed;
 
 }
