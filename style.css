@@ -8,7 +8,9 @@ body {
 .bg-lighta {
     background-color: #f8f9fab8 !important;
 }
-
+.mt-8{
+  margin-top: 80px !important;
+}
 
 #main {
   transition: margin-left .5s;
@@ -16,7 +18,7 @@ body {
 }
 
 #section1{
-  margin-top: 80px;
+  margin-top: 20px;
   border-top: 2px solid #d2d2d2;
 }
 #section2{
